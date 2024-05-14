@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primaryColor:  rgba(47, 47, 207, 0.514);
+    --secondaryColor: #111;
+    font-family: "Montserrat", sans-serif;
+}
