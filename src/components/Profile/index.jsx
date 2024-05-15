@@ -11,7 +11,7 @@ const Profile = ({ userName }) => {
             </h1>
         </header>
     )
-}
+};
 
 Profile.propTypes = {
     userName: PropTypes.string.isRequired

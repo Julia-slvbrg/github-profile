@@ -1,0 +1,23 @@
+.listItem{
+    margin: 10px;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 16px;
+
+}
+
+.itemName b, .itemLanguage b{
+    margin-right: 8px;
+}
+
+.itemLink{
+    background-color: var(--primaryColor);
+    color: var(--secondarycolor);
+    display: block;
+    text-align: center;
+    padding: 8px;
+    margin-top: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
