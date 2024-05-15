@@ -12,8 +12,14 @@ function App() {
       <label>Digite o nome do usuário para exibir o perfil:</label>
       <input type="text" onBlur={(e) => setUserName(e.target.value)} />
 
-      <Profile userName={userName}/>
-      <ReposList/>
+      {userName.length > 4 && (
+        <>
+          <Profile userName={userName}/>
+          <ReposList userName={userName}/>
+        </>
+      )
+      }
+     
     </>
   )
 }

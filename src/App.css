@@ -9,3 +9,9 @@
     --secondaryColor: #111;
     font-family: "Montserrat", sans-serif;
 }
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+}
