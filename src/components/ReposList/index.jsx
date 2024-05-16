@@ -22,7 +22,8 @@ const ReposList = ({ userName }) => {
             {
                 isLoading? (
                     <h1>Carregando...</h1>
-                ) : (
+                ) 
+                : (
                     <ul className={styles.list}>
                     {
                         repos.map(({name, language, html_url, id }) =>{
